@@ -4,6 +4,10 @@
   background-color: #34373c;
   flex-grow: 1;
 
+  .chatMessage {
+    flex-grow: 1;
+  }
+
   .chatInput {
     display: flex;
     align-items: center;
