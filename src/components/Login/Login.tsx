@@ -6,6 +6,7 @@ import { auth, provider } from "../../fireBase";
 
 const Login = () => {
   const signIn = () => {
+    //Googleでログイン
     signInWithPopup(auth, provider).catch((err) => {
       alert(err.message);
     });

@@ -3,9 +3,11 @@
   flex-direction: column;
   background-color: #34373c;
   flex-grow: 1;
+  height: 100vh;
 
-  w .chatMessage {
-    flex-grow: 1;
+  .chatMessage {
+    height: 100vh;
+    overflow: scroll;
   }
 
   .chatInput {
